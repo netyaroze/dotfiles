@@ -16,7 +16,7 @@ for_window [class=".*"] border pixel 3
 client.focused          #8AFF80 #22212C #FFFFFF #FF80BF   #8AFF80
 
 #Set wallpaper. 
-exec feh --bg-tile ~/Pictures/Wallpapers/5007.png
+exec feh --bg-tile ~/Wallpapers/5007.png
 
 # Setting for HIDPI (3440x1440). 
 exec xrandr --dpi 96
