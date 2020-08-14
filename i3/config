@@ -25,7 +25,7 @@ exec xrandr --dpi 96
 exec_always --no-startup-id compton --config /home/netyaroze/.config/compton.conf
 
 # Start polybar.
-exec_always --no-startup-id polybar example
+exec polybar -r nixyaroze
 
 # Start macopix for weeb rice.
 exec macopix -m kanon.menu
