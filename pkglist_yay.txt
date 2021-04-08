@@ -1,0 +1,10 @@
+gohufont-powerline 
+artwiz-fonts 
+artwiz-fonts-otb
+k9s-git
+kubectx-git
+macopix-cloudef
+mopidy-mpd
+mopidy-spotify
+mopidy-soundcloud
+visual-studio-code-bin
