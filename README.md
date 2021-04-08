@@ -25,6 +25,7 @@ Having access to AUR and great documentation are solid reasons to move over to a
 | Terminal emulator | urxvt (true color fork with 256-bit color) |
 | CLI interpreter | Zsh |
 | Compositor | Picom |
+| Laptops | Precision 5530 & XPS 9500| 
 
 A list of all installed packages can be found at: [pkglist.txt](https://github.com/netyaroze/dotfiles/blob/master/pkglist.txt)
 
