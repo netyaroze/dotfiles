@@ -14,6 +14,8 @@ If you are considering the move to arch, i strongly recommend trying out install
 
 Having access to AUR and great documentation are solid reasons to move over to arch based system.
 
+## Overview
+
 | Software | Name |
 |--|--|
 | Distribution | Arch Linux |
@@ -25,6 +27,10 @@ Having access to AUR and great documentation are solid reasons to move over to a
 | Compositor | Picom |
 
 A list of all installed packages can be found at: [pkglist.txt](https://github.com/netyaroze/dotfiles/blob/master/pkglist.txt)
+
+## Theming
+
+Theme assets have been included, i will try and list credit where i can, however, alot of them have been sourced over time. 
 
 ## Getting started
 
