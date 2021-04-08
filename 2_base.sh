@@ -3,10 +3,9 @@
 # Detect username
 username=$(whoami)
 
-# Install different packages according to GPU vendor (Intel, AMDGPU) 
- gpu_drivers="vulkan-intel lib32-vulkan-intel intel-media-driver libvdpau-va-gl nvidia"
- libva_environment_variable="export LIBVA_DRIVER_NAME=iHD"
- vdpau_environment_variable="export VDPAU_DRIVER=va_gl"
+gpu_drivers="vulkan-intel lib32-vulkan-intel intel-media-driver libvdpau-va-gl nvidia"
+libva_environment_variable="export LIBVA_DRIVER_NAME=iHD"
+vdpau_environment_variable="export VDPAU_DRIVER=va_gl"
 
 echo "Adding multilib support"
 sudo sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
