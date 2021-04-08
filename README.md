@@ -10,7 +10,8 @@ the hybrid graphics support, which both of my laptops use, and i would constantl
 is important for me because i tend to use it while docked. 
 
 While some other distributions tend to have some of this working, i still find their theming ootb un-desirable and want to have control over my system from the ground up.
-If you are considering the move to arch, i strongly recommend trying out installing arch yourself first or using a distro like endeavourOS (personally found this the nicest to use).
+If you are considering the move to arch, i strongly recommend trying out installing arch yourself first or using a distro like endeavourOS (personally found this the nicest to use) or Arco (However Arco's documentation / website UX is probably the worst in the world of something trying to make something easy for users).
+
 Having access to AUR and great documentation are solid reasons to move over to arch based system.
 
 | Software | Name |
