@@ -1,5 +1,4 @@
 mopidy
-pulseaudio-equalizer
 pavucontrol
 imagemagick
 graphicsmagick
@@ -47,8 +46,8 @@ lxappearance-gtk3
 lightdm
 lightdm-webkit2-greeter
 network-manager-applet
-networkmanager
 python-dbus
 python-pre-commit
 sudo
 vlc
+xorg-font-utils
