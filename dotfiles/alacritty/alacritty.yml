@@ -1,107 +1,61 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator.
-
-# Any items in the `env` entry below will be added as
-# environment variables. Some entries may override variables
-# set by alacritty itself.
-# env:
-  # TERM variable
-  #
-  # This value is used to set the `$TERM` environment variable for
-  # each instance of Alacritty. If it is not present, alacritty will
-  # check the local terminfo database and use `alacritty` if it is
-  # available, otherwise `xterm-256color` is used.
-  # TERM: xterm-256color
-
 window:
-  # Window padding (changes require restart)
-  # Blank space added around the window in pixels. This padding is scaled
-  # by DPI and the specified value is always added at both opposing sides.
   padding:
     x: 10
-    y: 10
-
-  # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
-
-  # Window decorations
-  #
-  # Values for `decorations`:
-  #     - full: Borders and title bar
-  #     - none: Neither borders nor title bar
-  #
-  # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
-  #     - buttonless: Title bar, transparent background, but no title bar buttons
+    'y': 10
   decorations: none
-
-  # Window title
   title: Alacritty
-
-  # Window class (Linux/BSD only):
   class:
-    # Application instance name
     instance: Alacritty
-    # General application class
     general: Alacritty
-
-  # GTK theme variant (Linux/BSD only)
-  #
-  # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
-  # Set this to `None` to use the default theme variant.
-  #gtk_theme_variant: None
-
 scrolling:
   history: 30000
   multiplier: 3
-
-  # dpi:
-  # x: 96
-  # y: 96
-
-# Font configuration
 font:
   normal:
-    family: TamzenForPowerline
+    family: Terminus
+    #family: TamzenForPowerline
     style: Regular
   bold:
-    family: TamzenForPowerline
+    family: Terminus
+    #family: TamzenForPowerline
     style: Bold
-  size: 9.0
-
-  # Offset is the extra space around each character. `offset.y` can be thought of
-  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
-  #offset:
-  #  x: 0
-  #  y: 0
-
-  # Glyph offset determines the locations of the glyphs within their cells with
-  # the default being at the bottom. Increasing `x` moves the glyph to the right,
-  # increasing `y` moves the glyph upwards.
-  #glyph_offset:
-  #  x: 0
-  #  y: 0
-
-  # Thin stroke font rendering (macOS only)
-  #
-  # Thin strokes are suitable for retina displays, but for non-retina screens
-  # it is recommended to set `use_thin_strokes` to `false`
-  #
-  # macOS >= 10.14.x:
-  #
-  # If the font quality on non-retina display looks bad then set
-  # `use_thin_strokes` to `true` and enable font smoothing by running the
-  # following command:
-  #   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
-  #
-  # This is a global setting and will require a log out or restart to take
-  # effect.
+  size: 11
   use_thin_strokes: true
-
-
 key_bindings:
-  - { key: U,        mods: Super, action: IncreaseFontSize     }
-  - { key: D,        mods: Super, action: DecreaseFontSize     }
-
-
-# If `true`, bold text is drawn using the bright color variants.
+  - key:  Plus  
+    mods: Super
+    action: IncreaseFontSize
+  - key: Minus
+    mods: Super
+    action: DecreaseFontSize
 draw_bold_text_with_bright_colors: false
+colors:
+  primary:
+    background: '0x282a36'
+    foreground: '0xf8f8f2'
+  normal:
+    black: '0x929292'
+    red: '0xe27373'
+    green: '0x94b979'
+    yellow: '0xffba7b'
+    blue: '0x97bedc'
+    magenta: '0xe1c0fa'
+    cyan: '0x00988e'
+    white: '0xdedede'
+  bright:
+    black: '0xbdbdbd'
+    red: '0xffa1a1'
+    green: '0xbddeab'
+    yellow: '0xffdca0'
+    blue: '0xb1d8f6'
+    magenta: '0xfbdaff'
+    cyan: '0x1ab2a8'
+    white: '0xffffff'
+  indexed_colors:
+    - index: 16
+      color: '0xff9e64'
+    - index: 17
+      color: '0xdb4b4b'
+  cursor:
+    text: '0xffffff'
+    cursor: '0xffa460'
