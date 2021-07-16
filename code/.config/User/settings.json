@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "editor.fontFamily": "'Terminus \(TTF)\','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "window.menuBarVisibility": "compact",
+    "http.proxyAuthorization": null,
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "gopls": {
+    
+    },
+    "[nginx]": {
+        "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    }
+}

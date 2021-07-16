@@ -19,7 +19,7 @@
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = false
-    
+
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     
@@ -36,7 +36,7 @@
     enable_statusline_bfpath = true
     enable_statusline_tag = true
     home_files_number = 20
-    enable_vimfiler_gitstatus = true
+    #enable_vimfiler_gitstatus = true
     enable_vimfiler_filetypeicon = true
     sidebar_width = 50
 
@@ -74,10 +74,13 @@
     lint_on_the_fly = true
     lint_on_save = true
 
+    # No Relative Numbers
+    relativenumber=false
+
 
 [[layers]]
 name = 'core'
-  filetree_show_hidden = true
+  filetree_show_hidden = false
 
 [[layers]]
 name = "core#statusline"
@@ -183,6 +186,14 @@ repo = "beautify-web/js-beautify"
   merged = false
 
 [[custom_plugins]]
+repo = "mboughaba/i3config.vim"
+  merged = false
+
+[[custom_plugins]]
+repo="lilydjwg/colorizer"
+  merged=false
+
+[[custom_plugins]]
 repo = "dbeniamine/todo.txt-vim"
   on_cmd = ["todo.txt"]
   merged = false
@@ -194,5 +205,3 @@ repo = "dbeniamine/todo.txt-vim"
 #[[custom_plugins]]
 #  repo = "tpope/vim-speeddating"
 #  merged = false
-
- 

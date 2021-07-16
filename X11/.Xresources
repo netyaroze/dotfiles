@@ -1,0 +1,167 @@
+! ===== General ====
+Xft*dpi:    	   96
+Xft*autohint:      0
+Xft*antialias:     1
+Xft*hinting:       1
+
+Xft*rgba:          rgb
+Xft*hintstyle:     hintslight
+Xft*lcdfilter:     lcddefault
+x.font:            xft:Terminus:pixelsize=8
+rofi.font:         scientifica Bold 8
+
+! ===== Colors ====
+*foreground:       #D7D0C7
+*background:       #151515
+
+!black
+! *color0:          #AF875F
+! *color8:          #AF875F
+*color0:            #101010
+*color8:            #404040
+!red
+*color1:            #E84F4F
+*color9:            #D23D3D
+!green
+*color2:            #B8D68C
+*color10:           #A0CF5D
+!yellow
+*color3:            #E1AA5D
+*color11:           #F39D21
+!blue
+*color4:            #7DC1CF
+*color12:           #4E9FB1
+!magenta
+*color5:            #9B64FB
+*color13:           #8542FF
+!cyan
+*color6:            #6D878D
+*color14:           #42717B
+!white
+*color7:            #dddddd
+*color15:    	    #dddddd
+
+URxvt*borderColor:  #151515
+URxvt*colorBD:      #ffffff
+URxvt*cursorColor:  #ff8939
+URxvt*cursorColor2: #151515
+
+! ===== Cursor ====
+Xcursor*theme: 	  retrosmart-xcursor-white
+Xcursor*size:	    12
+
+
+! ===== URxvt ====
+! general
+URxvt*termName:     	rxvt-unicode-256color
+URxvt*name:         	URxvt
+URxvt*title:        	URxvt
+URxvt*geometry:     	93x35
+URxvt*cursorBlink:  	true
+URxvt*internalBorder: 	7
+URxvt*externalBorder: 	0
+URxvt*loginShell:   	true
+URxvt*locale:       	true
+URxvt*utf8:         	true
+URxvt*iso14755:     	false
+URxvt*iso14755_52:  	false
+URxvt*preeditType:  	Root
+URxvt*altSendsEscape:   true
+URxvt*eightBitInput:    false
+URxvt*metaSendsEscape:  true
+URxvt*utmpInhibit:  	false
+URxvt*scrollBar:       	false
+URxvt*scrollstyle:  	xterm
+URxvt*thickness:    	10
+URxvt*scrollBar_right:  true
+URxvt*scrollBar_floating: false
+URxvt*secondaryScroll:  true
+URxvt*buffered:     	true
+URxvt*urgentOnBell:     true
+URxvt*visualBell:       true
+URxvt*mapAlert:     	true
+URxvt*transparent:  	false
+URxvt*renderFont:   	false
+URxvt*shading:      	25
+URxvt*fading:       	0
+URxvt*depth:        	32
+URxvt*intensityStyles:  true
+URxvt*secondaryScreen:  1
+URxvt*scrollTtyOutput:  false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*saveLines:    	16384
+
+! copy and paste $XA_CLIPBOARD
+URxvt*clipboard.copycmd:    xclip -in -sel clip
+URxvt*clipboard.pastecmd:   xclip -out -sel clip
+
+! fonts
+URxvt*font:      	    xft:Terminus:pixelsize=8
+URxvt*boldFont:			xft:Terminus:style=Bold:pixelsize=8
+URxvt*italicFont:
+
+! extensions
+URxvt*perl-ext-common:      default,matcher,clipboard,keyboard-select,url-select,font-size,fullscreen,vtwheel
+URxvt*charClass:            33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+URxvt*url-select.launcher:  seamonkey
+URxvt*url-select.underline: true
+URxvt*url-select.autocopy:  true
+URxvt*url-select.button:    1
+URxvt*matcher.button:       1
+URxvt*clipboard.autocopy:   true
+URxvt.keysym.C-f:           searchable-scrollback:start
+URxvt*keysym.C-u:           perl:url-select:select_next
+URxvt*keysym.C-x:           perl:clipboard:copy
+URxvt*keysym.C-v:           perl:clipboard:paste
+URxvt*keysym.C-Shift-v:     perl:clipboard:paste_escaped
+URxvt*keysym.C-Delete:      perl:matcher:last
+URxvt*keysym.C-Shift-Delete:perl:matcher:list
+URxvt*keysym.C-Up:          perl:font-size:increase
+URxvt*keysym.C-Down:        perl:font-size:decrease
+URxvt*keysym.C-Shift-Up:    perl:font-size:incglobal
+URxvt*keysym.C-Shift-Down:  perl:font-size:decglobal
+URxvt*keysym.C-equal:       perl:font-size:reset
+URxvt*keysym.C-slash:       perl:font-size:show
+URxvt*keysym.C-a:           perl:keyboard-select:activate
+URxvt*keysym.C-s:           perl:keyboard-select:search
+URxvt*keysym.F11:           perl:fullscreen:switch
+URxvt*tabbed.new-button:    false
+URxvt*tabbed.tabbar-fg:     7
+URxvt*tabbed.tabbar-bg:     0
+URxvt*tabbed.tab-fg:        7
+URxvt*tabbed.tab-bg:        5
+URxvt*tabbed.tabcmds.1:     N|sh
+URxvt*tabbed.tabcmds.2:     R|root|su -
+URxvt*tabbed.tabcmds.3:     F|nnn|nnn
+URxvt*tabbed.tabcmds.4:     E|vi|vi
+URxvt*tabbed.tabcmds.5:     M|mutt|neomutt
+URxvt*tabbed.tabcmds.6:     H|htop|htop
+URxvt*session:              N
+
+
+! ==== XScreensaver ====
+XScreenSaver.Dialog.headingFont: -*-terminus-bold-r-normal--18-*-*-*-*-*-*-*
+XScreenSaver.Dialog.bodyFont: -*-terminus-bold-r-normal--18-*-*-*-*-*-*-*
+XScreenSaver.Dialog.labelFont: -*-terminus-medium-r-normal--18-*-*-*-*-*-*-*
+XScreenSaver.Dialog.unameFont: -*-terminus-bold-r-normal--28-*-*-*-*-*-*-*
+XScreenSaver.Dialog.buttonFont: -*-terminus-medium-r-normal--18-*-*-*-*-*-*-*
+XScreenSaver.Dialog.dateFont: -*-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+XScreenSaver.passwd.passwdFont: -*-terminus-medium-r-normal--18-*-*-*-*-*-*-*
+
+! ===== XClock ====
+XClock*strftime:    %a %d %b %H:%M
+XClock*padding:     3
+XClock*update:      1
+XClock*chime:       true
+XClock*render:      true
+XClock*digital:     false
+XClock*Font:        -*-helvetica-medium-r-normal--*-80-*-*-*-*-*-*
+XClock*geometry:    128x128-3+3
+XClock*borderWidth: 1
+XClock*foreground:  #d79921
+XClock*majorColor:  #4E9FB1
+XClock*minorColor:  #D7D0C7
+XClock*hourColor:   #D7D0C7
+XClock*minuteColor: #D7D0C7
+XClock*secondColor: #D7D0C7
