@@ -4,10 +4,7 @@
 # Author: Wang Shidong < wsdjeg at 163.com >
 # URL: https://spacevim.org
 # License: GPLv3
-# Edited by Mark Phillips, in Nano 5.3
-# https://gist.github.com/2c5cb4b4b063d4c63004bbda18ec944a
-# wget -O - https://bit.ly/3jrzVGM 
-# wget -o ~/.SpaceVim.d/init.toml https://bit.ly/3jrzVGM
+# Edited by Jeremy Cocks, in VSCode
 #=============================================================================
 
 [options]
