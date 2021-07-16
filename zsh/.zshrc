@@ -1,34 +1,21 @@
-# If you come from bash you might have to change your $PATH.
+# Paths (also using ~/.profile)
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 
-# Path to your oh-my-zsh installation.
+# Path to oh-my-zsh installation.
 export ZSH="/home/ntyze/.oh-my-zsh"
 export TERM=xterm-256color
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="clean"
+# Themes
 ZSH_THEME="gruvbox"
 SOLARIZED_THEME="dark"
 
+# Just update me up fam.
 DISABLE_UPDATE_PROMPT="true"
 
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
+# Fat Finger Mode
 ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -38,9 +25,6 @@ ENABLE_CORRECTION="true"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -48,23 +32,23 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions)
 
+# Source oh-my-zsh.
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+# additional user man config location
 export MANPATH="/usr/local/man:$MANPATH"
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
-# Aliases on the work repo all contain sensitive information (account data etc)
-# This is not included in the dotfile. Any aliases should be added to the zshalias file. u
+# Aliases on this work repo all contain sensitive information (account data etc) as they pertain to my work.
+# So this is not included in the dotfiles repo. All aliases should be added to the zshalias file as you would here.
+# It's also just better to manage tbh.
 if [ -f ~/.zsh/zshalias ]; then
     source ~/.zsh/zshalias
 else
     print "Uh oh: ~/.zsh/zshalias not found."
 fi
-
-
 
 # Persistent Aliases
 alias vi3='vim ~/.config/i3/config'
