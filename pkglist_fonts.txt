@@ -20,3 +20,7 @@ inter-font
 nerd-fonts-fantasque-sans-mono
 nerd-fonts-fira-code
 nerd-fonts-iosevka
+terminus-font-ttf
+terminus-font
+gohufont-powerline
+gohufont-ttf

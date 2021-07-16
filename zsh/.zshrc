@@ -71,6 +71,7 @@ alias vi3='vim ~/.config/i3/config'
 alias viz='vim ~/.zshrc'
 alias szsh='source ~/.zshrc'
 alias xmerge='xrdb --merge ~/.Xresources'
+alias code='vscodium &'
 
 # Syntax Highlighting
 source /home/ntyze/git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
