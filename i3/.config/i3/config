@@ -241,8 +241,8 @@ bar {
         }
 
 	tray_output primary
-  status_command i3status
-  #status_command /home/ntyze/.config/i3/conky-status/i3status.sh 
+  #status_command i3status | ~/git/i3spotifystatus/pystatus.py
+  status_command /home/ntyze/.config/i3/conky-status/i3status.sh 
 	#status_command py3status
 
 }
