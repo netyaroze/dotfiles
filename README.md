@@ -27,7 +27,7 @@ Stow is available for most distributions:
 
 Depending on which setup you are after, you will need to change to the appropriate branch:
 
-    git clone https://github.com/netyaroze/dotfiles.git
+    git clone https://github.com/netyaroze/dotfiles.git ~/
     git checkout work
 
 My dotfiles setup assumes that this repository is cloned/located in the root of your home directory `~/dotfiles` . 
