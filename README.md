@@ -12,7 +12,9 @@
  
 ### Hello
 Uploaded for your horror is my personal dotfiles, both for my work and personal machines.
+The layout of this repo and how to apply it was inspired by [xero](https://github.com/xero).
 
+### Branches
 Each branch is labelled for each workstation. Most of the software is identical, however the themes differ.
 
 1. **Work** - My work laptop, running Arch on the LTS kernel. Theme is heavily modified based on files provided by [u/sehnsuchtbsd](https://www.reddit.com/user/sehnsuchtbsd/) who's themes i heavily enjoy.
