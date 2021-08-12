@@ -12,9 +12,8 @@
  
 ### Hello
 Uploaded for your horror is my personal dotfiles, both for my work and personal machines.
-The layout of this repository, and how i structured the README was inspired by [xero](https://github.com/xero), who i thoroughly recommend checking out. 
 
-You can learn alot about theming just looking through his personal dotfiles.
+The layout of this repository, and how i structured the README was inspired by [xero](https://github.com/xero), who i thoroughly recommend checking out. You can learn alot about theming just looking through his personal dotfiles.
 
 ### Branches
 Each branch is labelled for each workstation. Most of the software is identical, however the themes differ.
@@ -26,12 +25,11 @@ Each branch is labelled for each workstation. Most of the software is identical,
 Please see the install section on how to switch.
 
 ### Manage
-This repo assumes you manage your dotfiles with [gnu stow](http://www.gnu.org/software/stow/) which is a lightweight symlink manager.  This repository allows me to keep a versioned history of my configuration files that are virtually linked with a single command, but it also makes sharing these files across machines (including mine, dare i format it). 
+This repo assumes you manage your dotfiles with [gnu stow](http://www.gnu.org/software/stow/) which is a lightweight symlink manager. This repository allows me to keep a versioned history of my configuration files that are virtually linked with a single command, but it also makes sharing these files across machines (including mine, dare i format it). 
 
 Stow is available for most distributions:
 -   `sudo pacman -S stow`
 -   `sudo apt-get install stow`
--   `brew install stow`
 
 ### To Install
 
