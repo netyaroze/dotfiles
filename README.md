@@ -12,7 +12,9 @@
  
 ### Hello
 Uploaded for your horror is my personal dotfiles, both for my work and personal machines.
-The layout of this repo and how to apply it was inspired by [xero](https://github.com/xero).
+The layout of this repository, and how i structured the README was inspired by [xero](https://github.com/xero), who i thoroughly recommend checking out. 
+
+You can learn alot about theming just looking through his personal dotfiles.
 
 ### Branches
 Each branch is labelled for each workstation. Most of the software is identical, however the themes differ.
