@@ -12,19 +12,15 @@ scrolling:
   multiplier: 3
 font:
   normal:
-    family: Dina
-    #family: Terminus
-    #family: TamzenForPowerline
+    family: Terminus
     style: Regular
   bold:
-    family: Dina
-    #family: Terminus
-    #family: TamzenForPowerline
+    family: Terminus
     style: Bold
   size: 8
   use_thin_strokes: true
 key_bindings:
-  - key:  Plus  
+  - key: Plus
     mods: Super
     action: IncreaseFontSize
   - key: Minus
@@ -36,22 +32,22 @@ colors:
     background: '0x282a36'
     foreground: '0xf8f8f2'
   normal:
-    black: '0x929292'
-    red: '0xe27373'
-    green: '0x94b979'
-    yellow: '0xffba7b'
-    blue: '0x97bedc'
-    magenta: '0xe1c0fa'
-    cyan: '0x00988e'
-    white: '0xdedede'
+    black: '0x000000'
+    red: '0xff5555'
+    green: '0x50fa7b'
+    yellow: '0xf1fa8c'
+    blue: '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan: '0x8be9fd'
+    white: '0xbbbbbb'
   bright:
-    black: '0xbdbdbd'
-    red: '0xffa1a1'
-    green: '0xbddeab'
-    yellow: '0xffdca0'
-    blue: '0xb1d8f6'
-    magenta: '0xfbdaff'
-    cyan: '0x1ab2a8'
+    black: '0x555555'
+    red: '0xff5555'
+    green: '0x50fa7b'
+    yellow: '0xf1fa8c'
+    blue: '0xcaa9fa'
+    magenta: '0xff79c6'
+    cyan: '0x8be9fd'
     white: '0xffffff'
   indexed_colors:
     - index: 16
@@ -59,5 +55,8 @@ colors:
     - index: 17
       color: '0xdb4b4b'
   cursor:
-    text: '0xffffff'
-    cursor: '0xffa460'
+    text: '0x454158'
+    cursor: '0xf8f8f2'
+  selection:
+    text: '0xf8f8f2'
+    background: '0x454158'
