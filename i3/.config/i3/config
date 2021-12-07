@@ -60,7 +60,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Set Screenshot
-bindsym $mod+Print exec flameshot gui
+bindsym $mod+shift+Print exec flameshot full -c -p /home/ntyze/pictures/screenshots
 
 # Set Lock via xscreensaver
 bindsym $mod+l exec --no-startup-id xscreensaver-command --lock > /dev/null
@@ -243,6 +243,7 @@ bar {
 	tray_output primary
   #status_command i3status | ~/git/i3spotifystatus/pystatus.py
   status_command /home/ntyze/.config/i3/conky-status/i3status.sh 
-	#status_command py3status
+  #status_command i3status	
+#status_command py3status
 
 }

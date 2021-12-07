@@ -14,7 +14,7 @@ SOLARIZED_THEME="dark"
 DISABLE_UPDATE_PROMPT="true"
 
 # Fat Finger Mode
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to change the command execution time
@@ -61,7 +61,11 @@ alias code='vscodium &'
 source /home/ntyze/git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then . '~/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/home/ntyze/google-cloud-sdk/path.zsh.inc' ]; then . '/home/ntyze/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then . '~/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/home/ntyze/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/ntyze/google-cloud-sdk/completion.zsh.inc'; fi
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

@@ -15,12 +15,12 @@ dpi:
   'y': 97
 font:
   normal:
-    family: Terminus
+    family: cozette
     style: regular
   bold:
-    family: Terminus
+    family: cozette
     style: Bold
-  size: 8
+  size: 9
   use_thin_strokes: true
 key_bindings:
   - key: Key0
